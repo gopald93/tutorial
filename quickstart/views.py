@@ -1,16 +1,23 @@
 from django.shortcuts import render
+from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
+from rest_framework.views import APIView
+from django.http import HttpResponse
+from rest_framework.response import Response
+from rest_framework import status
+from rest_framework import generics
+from rest_framework.decorators import api_view
 from quickstart.models import *
 from django.shortcuts import render, redirect
 import csv
 import pendulum
 from datetime import datetime 
-import json
 
 def change_date_format(date_time_obj):
     required_data_obj = date_time_obj.strftime("%b %d %Y %I%p")
     return required_data_obj
 
+@api_view(['GET'])
 def activity_periods_api(request):
     return_dict={}
     return_dict.update({"ok":True})
@@ -31,8 +38,8 @@ def activity_periods_api(request):
                 demo_dict_temp.update({"end_date":date_time_obj}) 
                 demo_dict.get("activity_periods").append(demo_dict_temp)
             return_dict.get("members").append(demo_dict)
-        return JsonResponse(return_dict,safe=False)
-    return JsonResponse({"message": "Hello, world!"},safe=False)
+        return Response(return_dict)   
+    return Response({"message": "Hello, world!"})
 
 def get_time_zone():
     datetime_object = datetime.now()
