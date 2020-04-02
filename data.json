@@ -1,0 +1,62 @@
+{
+   "ok":true,
+   "members":[
+      {
+         "id":"10137e4a386f4647839748b077e807ad",
+         "real_name":"krishna gopal dueby",
+         "tz":"Asia/Kolkata",
+         "activity_periods":[
+            {
+               "start_date":"Mar 26 2020 06AM",
+               "end_date":"Mar 31 2020 11AM"
+            },
+            {
+               "start_date":"Mar 23 2020 01PM",
+               "end_date":"Mar 28 2020 06AM"
+            }
+         ]
+      },
+      {
+         "id":"W012A3CDE",
+         "real_name":"Egon Spengler",
+         "tz":"UTC",
+         "activity_periods":[
+            {
+               "start_date":"Feb 14 2000 11PM",
+               "end_date":"May 14 2000 11PM"
+            },
+            {
+               "start_date":"Jun 14 2000 11PM",
+               "end_date":"Sep 14 2000 11PM"
+            },
+            {
+               "start_date":"Oct 14 2000 11PM",
+               "end_date":"Dec 14 2000 11PM"
+            }
+         ]
+      },
+      {
+         "id":"W07QCRPA4",
+         "real_name":"Glinda Southgood",
+         "tz":"UTC",
+         "activity_periods":[
+            {
+               "start_date":"Feb 14 2000 11PM",
+               "end_date":"Apr 14 2000 11PM"
+            },
+            {
+               "start_date":"May 14 2000 11PM",
+               "end_date":"Jul 14 2000 11PM"
+            },
+            {
+               "start_date":"Aug 14 2000 11PM",
+               "end_date":"Oct 14 2000 11PM"
+            },
+            {
+               "start_date":"Nov 14 2000 11PM",
+               "end_date":"Dec 14 2000 11PM"
+            }
+         ]
+      }
+   ]
+}
