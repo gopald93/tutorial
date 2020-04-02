@@ -1,10 +1,6 @@
 following step to excute the project:
-1.I already create some dumy data in databse.
-2. if u want to create more employee data then 
-i have given option to upload the csv file and just create csv file like employee.csv and upload.
-use the follwing link for uploading the file.
- http://activitytracing.pythonanywhere.com/upload_csv/
- 
- to call the api to User and ActivityPeriod models.please link on 
- http://activitytracing.pythonanywhere.com/activity_periods_api/
- 
+api url for activity_periods for different employee.
+activitytracing.pythonanywhere.com/activity_periods_api/I had created some dummy data in database .but still if u want to create more 
+data.just download the employee.csv file and fill the data . then call the following url for upload the employee.csv file.activitytracing.pythonanywhere.com/upload_csv/ 
+after uploading the file automatically data will created in database.
+  
